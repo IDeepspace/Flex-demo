@@ -1,0 +1,32 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 16px;
+    padding: 4px;
+    background-color: #e7e7e7;
+    width: 104px;
+    height: 104px;
+    border-radius: 10%;
+}
+.item{
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin: 4px;
+    background-color: #333;
+}
+
+.row{
+    flex-basis: 100%;
+    display:flex;
+}
+
+.row:nth-child(2){
+    justify-content: center;
+}
+
+.row:nth-child(3){
+    justify-content: space-between;
+}

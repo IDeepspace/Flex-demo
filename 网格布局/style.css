@@ -1,0 +1,9 @@
+.Grid {
+    display: flex;
+
+    background-color: silver;
+}
+
+.Grid-cell {
+    flex: 1;
+}

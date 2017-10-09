@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+
+    margin: 16px;
+    padding: 4px;
+    background-color: #e7e7e7;
+    width: 104px;
+    height: 104px;
+    border-radius: 10%;
+}
+.item{
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin: 4px;
+    background-color: #333;
+}
+.item:nth-child(2) {
+    align-self: center;
+}
+
+.item:nth-child(3) {
+    align-self: flex-end;
+}
